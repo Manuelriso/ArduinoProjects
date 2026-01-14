@@ -8,6 +8,8 @@ This repository represents my first steps into the world of electronics and embe
 
 ## 📁 Repository Structure
 
+---
+
 ### 🔴 MyBlink
 
 > 🧠 *My very first Arduino program ever.*
@@ -34,6 +36,42 @@ A classic project, but an unforgettable milestone ❤️
 - Arduino UNO / Elegoo UNO R3
 - Arduino IDE
 - USB cable
+
+---
+
+
+
+### 🎶 MyUltrasonicDetection
+
+
+> 🧠 *My first approach to ultrasonic sensors.*
+
+This is the first program I ran using an **ultrasonic sensor**.
+
+#### ✨ Description
+The program simply compute the distance detected from the SR04 ultrasonic sensor every **0.1 seconds**. The TRIGGER PIN and the ECHO PIN are selected on the 12 and 11 PIN of the board. 
+Also a LED is managed using a resistor and the PIN 5 of the UNO board. If the detected object from the sensor is below 50cm, the LED is turned ON, otherwise it's turned OFF.
+
+- **Board:** Arduino UNO / Elegoo UNO R3  
+- **Default TRIGGER Pin:** `12`  
+- **Default ECHO Pin:** `11`
+- **Default LED Pin:** `5`    
+- **Check Interval:** `100 ms`
+
+#### 🚀 What it does
+- Measurement of the ultrasonic values
+- Computation of the object distance
+- Check of the LED state
+- Waits 0.1 seconds
+- Repeats forever
+
+
+#### 🛠️ Requirements
+- Arduino UNO / Elegoo UNO R3
+- Arduino IDE
+- USB cable
+- 220 Ohm resistor
+- SR04 Ultrasonic sensor
 
 ---
 
