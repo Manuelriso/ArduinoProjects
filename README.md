@@ -30,9 +30,7 @@ The program simply blinks the built-in LED of the Arduino UNO board every **0.1 
 
 A classic project, but an unforgettable milestone ❤️
 
----
-
-## 🛠️ Requirements
+#### 🛠️ Requirements
 - Arduino UNO / Elegoo UNO R3
 - Arduino IDE
 - USB cable
@@ -42,4 +40,6 @@ A classic project, but an unforgettable milestone ❤️
 ## 📌 Notes
 This repository is mainly for learning, experimentation, and nostalgia.  
 More projects may be added in the future!
+
+---
 
